@@ -1,0 +1,28 @@
+body{
+
+	background: #e2e1e0;
+	text-align: center;
+}
+.user-container{
+
+	display: table;
+	border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow: 4px 6px 3px rgba(0,0,0,0.3);
+	margin: auto;
+}
+.user-container > div {/*>применяем ко всем элементам лежащим с классом див*/
+
+	display: table-cell;/*задает в строчку все дивы*/
+	padding: 32px;
+	font-family: "Times New Roman", "Tahoma","Arial";/*цвет шрифта*/
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	
+}
+
+.id{
+	color: red;
+
+	
+
+}
