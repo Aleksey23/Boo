@@ -22,9 +22,14 @@ class User{
 		echo'<div class ="ismale">'.$this->ismale.'</div>';
 		echo'<div class ="emale">'.$this->email.'</div>';
 		"</div>";//используется для доступа ко внутренним св-вам и классам
+		echo'<button onclick = "remove_user('.$this->id.')">Delete</button>';
+
 		echo "</div>";
 	}
 
 }
+
+
+		
 
 ?>
