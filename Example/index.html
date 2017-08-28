@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Example</title>
+<link rel = "stylesheet" href = "assets/css/styles.css">
+<script src = "assets/js/jquery-3.2.1.min.js">
+</script>
+<script src = "assets/js/main.js"></script>
+
+</head>
+<body>
+
+	<input type = "email" placeholder = "Email" maxlength="36" id = "email">
+		<div>Дата рождения:</div>
+
+	<input type = "date" placeholder = "Date"  id = "date">
+
+	<select id = "city">
+			<option value = "0" disabled selected>Введите город</option>
+			<option value = "1">Брест</option>
+			<option value = "2">Витебск</option>
+			<option value = "3">Гомель</option>
+			<option value = "4">Гродно</option>
+			<option value = "5">Минск</option>
+			<option value = "6">Могилёв</option>
+
+	</select>
+		<input type = "password" placeholder = "Введите пароль"  id = "pass">
+		<input type = "password" placeholder = "Повторите пароль"  id = "repit_pass">
+	<button id = "reg" onclick = "signUp()">Регистрация</button>
+	
+
+</body>
+</html>
